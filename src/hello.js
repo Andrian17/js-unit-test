@@ -10,3 +10,11 @@ export const person = (person) => {
 export const sayHallo = (name) => {
     console.log(`Hallo ${name}`);
 }
+
+export const helloTrouble = (name) => {
+    if (name) {
+        return `Hello ${name}`;
+    } else {
+        throw new Error("Name is required");
+    }
+}
