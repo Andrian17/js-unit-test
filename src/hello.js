@@ -6,3 +6,7 @@ export const person = (person) => {
         address: person.address
     }
 }
+
+export const sayHallo = (name) => {
+    console.log(`Hallo ${name}`);
+}
