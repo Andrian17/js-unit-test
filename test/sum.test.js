@@ -9,4 +9,10 @@ describe("Test it function", () => {
     it("SUM test", () => {
         expect(sum(20, 30)).toBe(50);
     });
+    it.skip("SUM test", () => {
+        expect(sum(20, 30)).toBe(40);
+    });
+    it("SUM test", () => {
+        expect(sum(20, 30)).toBe(50);
+    });
 });
